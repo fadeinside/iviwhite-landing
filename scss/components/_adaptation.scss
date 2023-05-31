@@ -2,9 +2,17 @@
 	.breakpoint-phone {
 		display: none;
 	}
+	.adapt-container-46684 {
+		width: calc(50% + 89px);
+	}
 }
 
 @media (max-width: $breakpoint-mobile) {
+	.adapt-container-46684 {
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
 	.breakpoint-pc {
 		display: none !important;
 	}
