@@ -1,0 +1,15 @@
+$breakpoint-mobile: 500px;
+
+:root {
+	color-scheme: dark;
+
+	--color_primany_000: #0071E3;
+	--color_primany_001: linear-gradient(90.09deg, #2063C9 5.29%, #3CCCCF 45.16%, #52E98F 94.89%);
+	--color_primany_002: linear-gradient(90deg, #8980ED 0%, #EC787F 50%, #FFC170 100%);
+	--color_primany_003: #000000;
+	--color_primany_004: #151515;
+	--color_primany_005: #8F8F92;
+	--color_primany_006: #FFFFFF;
+
+	--effect_button_shadow: 0px 2px 10px var(--color_primany_000); // box-shadow
+}

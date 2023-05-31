@@ -1,0 +1,152 @@
+@font-face {
+	font-family: "Inter", system-ui;
+	src: url("/assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+
+h1 {
+	font-size: 64px;
+	line-height: 77px;
+}
+h2 {
+	font-size: 48px;
+	line-height: 58px;
+}
+h3 {
+	font-size: 32px;
+	line-height: 39px;
+}
+h4 {
+	font-size: 18px;
+	line-height: 21px;
+}
+h5 {
+	font-size: 16px;
+	line-height: 19px;
+}
+h6 {
+	font-size: 15px;
+	line-height: 18px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 17px;
+}
+
+ul, ol {
+	margin: 0px;
+	padding-inline-start: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0px;
+	color: currentColor;
+	word-break: break-word;
+	white-space: pre-line;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.wb-unset {
+	word-break: normal !important;
+}
+
+.ws-nowrap {
+	white-space: nowrap;
+}
+
+.ta-center {
+	text-align: center;
+}
+
+.fs {
+	&.clip {
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	&.font-regular {
+		font-family: "Inter", system-ui !important;
+	}
+	&.font-roboto {
+		font-family: Roboto, system-ui !important;
+	}
+
+	&.h1 {
+		font-size: 64px;
+		line-height: 77px;
+	}
+	&.h2 {
+		font-size: 22px;
+		line-height: 26px;
+	}
+	&.h3 {
+		font-size: 32px;
+		line-height: 39px;
+	}
+	&.h4 {
+		font-size: 18px;
+		line-height: 21px;
+	}
+	&.h5 {
+		font-size: 16px;
+		line-height: 19px;
+	}
+	&.h6 {
+		font-size: 15px;
+		line-height: 18px;
+	}
+	
+	&.p {
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	&.small-10px {
+		font-size: 10px;
+		line-height: 12px;
+	}
+
+	&.line-clamp {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		-webkit-box-orient: vertical;
+	}
+
+	&.lh-unset {
+		line-height: unset !important;
+	}
+	&.lh-25px {
+		line-height: 25px;
+	}
+
+	&.thin {
+		font-weight: 100;
+	}
+	&.thin-extra {
+		font-weight: 200;
+	}
+	&.light {
+		font-weight: 300;
+	}
+	&.regular {
+		font-weight: 400;
+	}
+	&.medium {
+		font-weight: 500;
+	}
+	&.bolt-semi {
+		font-weight: 600;
+	}
+	&.bolt {
+		font-weight: 700;
+	}
+	&.bolt-extra {
+		font-weight: 800;
+	}
+	&.black {
+		font-weight: 900;
+	}
+}

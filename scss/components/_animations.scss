@@ -1,0 +1,9 @@
+button {
+	&:focus {
+		transition: 0.08s;
+	}
+	&:active {
+		transition: 0.08s;
+		scale: 0.98;
+	}
+}

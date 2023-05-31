@@ -1,0 +1,32 @@
+button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 30px;
+	gap: 20px;
+	border-radius: 36px;
+	border: unset;
+	user-select: none;
+	min-width: fit-content;
+
+	font-family: Roboto, system-ui;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+
+	&.transparent {
+		background-color: unset;
+		box-shadow: unset;
+	}
+
+	box-shadow: var(--effect_button_shadow);
+	background-color: var(--color_primany_000);
+	transition: all 200ms linear;
+
+	&:hover {
+		// cursor: pointer;
+		background: var(--color_primany_001);
+	}
+}

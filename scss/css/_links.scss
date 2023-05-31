@@ -1,0 +1,37 @@
+a {
+	&.fillHeight {
+		height: 100%;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&.noStyle {
+		color: var(--color_primany_005);
+		text-decoration: none;
+		&:hover {
+			text-decoration: none;
+			color: var(--color_primany_005);
+		}
+	}
+	
+	color: var(--color_primany_006);
+
+	&:hover {
+		color: var(--color_primany_006) !important;
+	}
+
+	&.noLine {
+		text-decoration: none;
+		&.onlyOnHover {
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	&.forcePointer {
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
