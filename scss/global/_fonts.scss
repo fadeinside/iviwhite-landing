@@ -45,6 +45,9 @@ h1, h2, h3, h4, h5, h6, p {
 	white-space: pre-line;
 	font-style: normal;
 	font-weight: 400;
+	// I don't like this 
+	width: 100% !important;
+	text-align: center;
 }
 
 .wb-unset {

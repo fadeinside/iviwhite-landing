@@ -27,6 +27,13 @@
 	}
 }
 
+.response-grid-37383 {
+	flex-wrap: wrap;
+	& > div {
+		flex: 1 1 400px;
+	}
+}
+
 .bottombar-custom {
 	position: fixed;
 	top: unset;
