@@ -3,7 +3,7 @@
 <head>
 	<!-- META -->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, minimum-scale=0.9, maximum-scale=0.9, user-scalable=0" />
+	<meta name="viewport" content="width=device-width, minimum-scale=0.8, maximum-scale=0.8, user-scalable=0" />
 	<link rel="icon" type="image/x-icon" href="https://iviwhite.fadeinsi.de/assets/images/favicon/iviwhite-dark.png" />
 
 	<!-- SITE -->
@@ -31,20 +31,20 @@
 				<img src="/assets/images/logo/iviwhite-header.svg" alt="">
 			</a>
 			<!-- Меню в хедере -->
-			<div class="breakpoint-pc flex dir-row ai-center gap-20px w-fit h-100">
+			<div class="flex dir-row ai-center gap-20px w-fit h-100">
 				<!-- Редирект на контакты -->
-				<a href="#help" class="fillHeight noStyle">Контакты</a>
+				<a href="#help" class="breakpoint-pc fillHeight noStyle">Контакты</a>
 				<!-- Редирект на инструкции -->
-				<a href="#instructions" class="fillHeight noStyle">Инструкции</a>
+				<a href="#instructions" class="breakpoint-pc fillHeight noStyle">Инструкции</a>
 				<!-- Редирект на список магазинов -->
 				<a href="#buy" class="fillHeight noStyle">
 					<button>Купить</button>
 				</a>
 			</div>
-			<button data-bottombar="_MobileMenu" class="breakpoint-phone">Меню</button>
+			<!-- <button data-bottombar="_MobileMenu" class="breakpoint-phone">Меню</button> -->
 		</div>
 
-		<!-- Мобильное меню -->
+		<!-- Мобильное меню. UNUSED -->
 		<div data-for="_MobileMenu" class="bottombar-custom flex dir-column gap-10px col-bg-004 padd-20px radius-12px">
 			<a href="#help" class="noStyle"><button class="w-100 transparent">Контакты</button></a>
 			<a href="#instructions" class="noStyle"><button class="w-100 transparent">Инструкции</button></a>

@@ -33,6 +33,21 @@ p {
 	line-height: 17px;
 }
 
+@media (max-width: $breakpoint-mobile) {
+	h1 {
+		font-size: 54px;
+		line-height: 67px;
+	}
+	h2 {
+		font-size: 38px;
+		line-height: 48px;
+	}
+	h3 {
+		font-size: 22px;
+		line-height: 29px;
+	}
+}
+
 ul, ol {
 	margin: 0px;
 	padding-inline-start: 20px;
